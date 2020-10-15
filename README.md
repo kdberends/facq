@@ -1,4 +1,4 @@
-# facq
+![FACQ+](/src/assets/logo.svg)
 
 ## Project setup
 ```
