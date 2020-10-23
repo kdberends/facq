@@ -12,6 +12,7 @@
     "core-js": "^3.6.5",
     "save": "^2.4.0",
     "vue": "^2.6.11",
+    "vue2-touch-events": "^2.3.2",
     "webfontloader": "^1.6.28"
   },
   "devDependencies": {

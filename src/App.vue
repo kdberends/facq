@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <div id='answer' :style="styleGradient">
-    <h1>"{{address}} {{team}}, {{grateful_expression}} {{grateful_subject}} {{grateful_object}}"</h1>
+    <h1>"<span class="actionText" v-touch:tap="changeAddressLevel" @click="changeAddressLevel">{{address}}</span> <span class="actionText" v-touch:tap="toggleTeam" @click="toggleTeam">{{team}}</span>, 
+      <span class="actionText" v-touch:tap="generateAnswer" @click="generateAnswer">{{grateful_expression}} {{grateful_subject}} {{grateful_object}}</span>
+ "</h1>
     <div>
     <img id="facq" src="../src/assets/logo.png">
   </div>  
@@ -18,11 +20,11 @@ export default {
   components: {
   },
   data: () => ({
-    address_level: 2,
+    address_level: 3,
     grateful_expression: String,
     grateful_subject: String,
     grateful_object: String,
-    team_id: false,
+    isSupervisor: false,
     LinGradRotation: 90,
     LinGradBlue: 100,
     BoxShadowH: 0,
@@ -30,10 +32,10 @@ export default {
   }),
   computed: {
     team: function(){
-      if (this.team_id){
-        return "opponent"
-      } else {
+      if (this.isSupervisor){
         return "supervisor"
+      } else {
+        return "opponent  "
       }
     },
     address: function(){
@@ -62,6 +64,16 @@ export default {
     window.addEventListener('mousemove', this.handleMouseMove)
   },
   methods:{
+    toggleTeam: function() {
+    this.isSupervisor = ~this.isSupervisor
+    },
+    changeAddressLevel () {
+      if (this.address_level<4){
+        this.address_level ++
+      } else {
+        this.address_level = 0
+      }
+    },
     generateAnswer() {
       let grateful_expressions = [
         "thank you for",
@@ -107,7 +119,7 @@ export default {
       console.log(e.keyCode)
       if (e.keyCode==37 || e.keyCode==39){
         //keyup 
-        this.team_id = ~this.team_id
+        this.toggleTeam()
         e.preventDefault()
       } else if (e.keyCode==40){
         //keydown
@@ -220,5 +232,19 @@ h1 {
         animation: octocat-wave 560ms ease-in-out;
     }
 }
+
+.actionText{
+  border-bottom: 2px solid a;
+  font-size: 5.5vh;
+  transition: all 1s ease-out;
+  text-shadow: 0px 0px transparent;
+}
+
+.touchActive{
+  font-size: 6vh;
+  transition: all 0s ease-out;
+  text-shadow: 0px 0px #EEE;
+}
+
 
 </style>
