@@ -1,0 +1,42 @@
+{"grateful_expressions": [
+        "thank you for",
+        "I'm grateful for",
+        "I'm blown away by",
+        "it's very nice to hear",
+        "I feel indebted for",
+        "I feel thankful to hear",
+        "I'm sure my supervisor is relieved to hear",
+        "in my mind I will ceaselessly replay"
+        ],
+"grateful_subjects": [
+        "words about",
+        "remarks on",
+        "comments on",
+        "commentaries on",
+        "assertions regarding"
+        ],
+"grateful_objects": [
+        "my work",
+        "my thesis",
+        "the result of my labour",
+        "my life's work",
+        "what sometimes felt like an Herculean task",
+        "my little book"
+        ],
+"grateful_adjectives": [
+    "kind",
+    "generous",
+    "wonderful",
+    "thoughtful",
+    "unselfish",
+    "considerate"
+    ],
+"question_adjective": [
+    "insightful",
+    "thought-provoking",
+    "observant"
+    ],
+"demonstratives": [
+    "these", 
+    "your"]
+}

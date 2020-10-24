@@ -1,8 +1,10 @@
 <template>
   <div id="app">
     <div id='answer' :style="styleGradient">
-    <h1>"<span class="actionText" v-touch:tap="changeAddressLevel" @click="changeAddressLevel">{{address}}</span> <span class="actionText" v-touch:tap="toggleTeam" @click="toggleTeam">{{team}}</span>, 
-      <span class="actionText" v-touch:tap="generateAnswer" @click="generateAnswer">{{grateful_expression}} {{grateful_subject}} {{grateful_object}}</span>
+    <h1 v-if="ReplyToCompliment">"<span class="actionText" v-touch:tap="changeAddressLevel" @click="changeAddressLevel">{{address}}</span> <span class="actionText" v-touch:tap="toggleTeam" @click="toggleTeam">{{team}}</span>, 
+      <span class="actionText" v-touch:tap="generateAnswer" @click="generateAnswer">{{grateful_expression}} {{demonstrative}} {{grateful_adjective}} {{grateful_subject}} {{grateful_object}}</span>
+ "</h1>
+ <h1 v-else>"<span class="actionText">{{grateful_expression}} your {{complimentary_ajective }}</span>
  "</h1>
     <div>
     <img id="facq" src="../src/assets/logo.png">
@@ -14,6 +16,7 @@
 </template>
 
 <script>
+import library from './assets/library.json'
 
 export default {
   name: 'App',
@@ -24,11 +27,15 @@ export default {
     grateful_expression: String,
     grateful_subject: String,
     grateful_object: String,
+    grateful_adjective: String,
+    demonstrative: String,
     isSupervisor: false,
     LinGradRotation: 90,
     LinGradBlue: 100,
     BoxShadowH: 0,
     BoxShadowV: 0,
+    ReplyToCompliment: true,
+    library: library
   }),
   computed: {
     team: function(){
@@ -65,7 +72,7 @@ export default {
   },
   methods:{
     toggleTeam: function() {
-    this.isSupervisor = ~this.isSupervisor
+    this.isSupervisor = !this.isSupervisor
     },
     changeAddressLevel () {
       if (this.address_level<4){
@@ -75,38 +82,16 @@ export default {
       }
     },
     generateAnswer() {
-      let grateful_expressions = [
-        "thank you for",
-        "I'm grateful for",
-        "I'm blown away by",
-        "it's very nice to hear",
-        "I feel indebted for",
-        "I feel thankful to hear",
-        "I'm sure my supervisor is relieved to hear",
-        "in my mind I will ceaselessly replay",
-        ]
-      let grateful_subjects = [
-        "your kind words about",
-        "your generous remarks on",
-        "these wonderful comments on",
-        "your thoughtful commentary on",
-        "these unselfish assertions regarding",
-        "this considerate exposition of"
-        ]
-      let grateful_objects = [
-        "my work",
-        "my thesis",
-        "the result of my labour",
-        "my life's work",
-        "what sometimes felt like an Herculean task",
-        "my little book"
-        ]
+      this.grateful_expression = library.grateful_expressions[parseInt(Math.random()*library.grateful_expressions.length)];
 
-      this.grateful_expression = grateful_expressions[parseInt(Math.random()*grateful_expressions.length)];
+      this.grateful_subject = library.grateful_subjects[parseInt(Math.random()*library.grateful_subjects.length)];
 
-      this.grateful_subject = grateful_subjects[parseInt(Math.random()*grateful_subjects.length)];
+      this.grateful_object = library.grateful_objects[parseInt(Math.random()*library.grateful_objects.length)];
 
-      this.grateful_object = grateful_objects[parseInt(Math.random()*grateful_objects.length)];
+      this.demonstrative = library.demonstratives[parseInt(Math.random()*library.demonstratives.length)];
+
+      this.grateful_adjective = library.grateful_adjectives[parseInt(Math.random()*library.grateful_adjectives.length)];
+      
     },
     handleKeyPress: function(e) {
       if (e.keyCode==32){
@@ -129,8 +114,7 @@ export default {
       } else if (e.keyCode==38){
         if (this.address_level <=3){
           this.address_level++
-        }
-        
+        } 
       }
     },
     handleMouseMove: function(e) {
@@ -237,14 +221,16 @@ h1 {
   border-bottom: 2px solid a;
   font-size: 5.5vh;
   transition: all 1s ease-out;
-  text-shadow: 0px 0px transparent;
+  -webkit-text-fill-color: transparent;
 }
 
 .touchActive{
   font-size: 6vh;
   transition: all 0s ease-out;
-  text-shadow: 0px 0px #EEE;
+  -webkit-text-fill-color: #EEE;
 }
 
-
+body{
+	background-color: #DDD;
+}
 </style>
