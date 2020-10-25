@@ -7,41 +7,41 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   sodipodi:docname="logo.svg"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   id="svg8"
-   version="1.1"
-   viewBox="0 0 124.38612 16.477568"
-   height="16.477568mm"
-   width="124.38612mm"
-   inkscape:export-filename="C:\Users\berend_kn\git\facq\src\assets\logo.png"
+   inkscape:export-ydpi="216.86342"
    inkscape:export-xdpi="216.86342"
-   inkscape:export-ydpi="216.86342">
+   inkscape:export-filename="C:\Users\berend_kn\git\facq\src\assets\logo.png"
+   width="77.828896mm"
+   height="16.477568mm"
+   viewBox="0 0 77.828893 16.477568"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="logo.svg">
   <defs
      id="defs2" />
   <sodipodi:namedview
-     inkscape:window-maximized="1"
-     inkscape:window-y="-11"
-     inkscape:window-x="-11"
-     inkscape:window-height="1000"
-     inkscape:window-width="1920"
-     fit-margin-bottom="0"
-     fit-margin-right="0"
-     fit-margin-left="0"
-     fit-margin-top="0"
-     showgrid="false"
-     inkscape:document-rotation="0"
-     inkscape:current-layer="layer1"
-     inkscape:document-units="mm"
-     inkscape:cy="-62.588776"
-     inkscape:cx="202.0719"
-     inkscape:zoom="1.4142136"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     borderopacity="1.0"
-     bordercolor="#666666"
+     id="base"
      pagecolor="#ffffff"
-     id="base" />
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="202.0719"
+     inkscape:cy="-62.588758"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1000"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -55,42 +55,42 @@
     </rdf:RDF>
   </metadata>
   <g
-     transform="translate(-49.831649,-118.3071)"
-     id="layer1"
+     inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     inkscape:label="Layer 1">
+     id="layer1"
+     transform="translate(-49.831649,-118.3071)">
     <text
-       id="text835"
-       y="129.35844"
-       x="49.177593"
+       xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:ETBembo;-inkscape-font-specification:ETBembo;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';stroke-width:0.264583"
-         y="129.35844"
-         x="49.177593"
+       x="49.177593"
+       y="129.35844"
+       id="text835"><tspan
+         sodipodi:role="line"
          id="tspan833"
-         sodipodi:role="line">FACQ</tspan></text>
+         x="49.177593"
+         y="129.35844"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';stroke-width:0.264583">FACQ</tspan></text>
     <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:ETBembo;-inkscape-font-specification:ETBembo;letter-spacing:0px;word-spacing:0px;fill:#aa0000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="71.619926"
+       id="text839"
        y="124.53925"
-       id="text839"><tspan
-         sodipodi:role="line"
-         id="tspan837"
-         x="71.619926"
+       x="71.619926"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:ETBembo;-inkscape-font-specification:ETBembo;letter-spacing:0px;word-spacing:0px;fill:#aa0000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';fill:#aa0000;stroke-width:0.264583"
          y="124.53925"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';fill:#aa0000;stroke-width:0.264583">+</tspan></text>
+         x="71.619926"
+         id="tspan837"
+         sodipodi:role="line">+</tspan></text>
     <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.20242px;line-height:1.25;font-family:ETBembo;-inkscape-font-specification:ETBembo;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.105061"
-       x="49.75983"
+       id="text843"
        y="133.88795"
-       id="text843"><tspan
-         sodipodi:role="line"
-         id="tspan841"
-         x="49.75983"
+       x="49.75983"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.20242px;line-height:1.25;font-family:ETBembo;-inkscape-font-specification:ETBembo;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.105061"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';stroke-width:0.105061"
          y="133.88795"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';stroke-width:0.105061">your First Aid for Committee Questions</tspan></text>
+         x="49.75983"
+         id="tspan841"
+         sodipodi:role="line">your First Aid for Committee Questions</tspan></text>
   </g>
 </svg>
