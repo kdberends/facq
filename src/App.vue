@@ -2,9 +2,12 @@
   <div id="app">
     <div id='answer' :style="styleGradient">
         <h1 v-if="ReplyToCompliment">
-            "<span class="actionText" v-touch:tap="changeAddressLevel" @click="changeAddressLevel">{{address}} </span> 
+          <!--"<span class="actionText" v-touch:tap="changeAddressLevel" @click="changeAddressLevel">{{address}} </span> 
              <span class="actionText" v-touch:tap="toggleTeam" @click="toggleTeam">{{team}}</span>, 
-             <span class="actionText" v-touch:tap="generateAnswer" @click="generateAnswer">{{grateful_expression}} {{demonstrative}} {{grateful_adjective}} {{grateful_subject}} {{grateful_object}}</span>"
+             <span class="actionText" v-touch:tap="generateAnswer" @click="generateAnswer">{{grateful_expression}} {{demonstrative}} {{grateful_adjective}} {{grateful_subject}} {{grateful_object}}</span>"-->
+            "<span class="actionText" @click="changeAddressLevel">{{address}} </span> 
+             <span class="actionText" @click="toggleTeam">{{team}}</span>, 
+             <span class="actionText" @click="generateAnswer">{{grateful_expression}} {{demonstrative}} {{grateful_adjective}} {{grateful_subject}} {{grateful_object}}</span>"
         </h1>
         <h1 v-else>
             "<span class="actionText">Thank your for your thought-provoking question. </span>"
