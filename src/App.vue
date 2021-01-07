@@ -84,7 +84,7 @@ export default {
       return {
       '--lingradient': "linear-gradient("+this.LinGradRotation+"deg, rgba(227,19,19,1) 0%, rgba(9,9,121,1) 52%, rgba(0,212,255,1) "+this.LinGradBlue+"%)",
       '--boxshadow': this.BoxShadowH+"px "+this.BoxShadowV+"0px 30px 0px rgba(0,0,0,0.75)"}
-    }
+    },
   },
   created() {this.generateAnswer()},
   mounted: function () {
@@ -184,6 +184,7 @@ export default {
   max-width: 420px;
   padding: 20px;
   margin: auto;
+  border-radius: 18px;
   margin-top: 100px;
   box-shadow: var(--boxshadow);
 }
@@ -265,6 +266,8 @@ h1 {
 }
 
 body{
-    background-color: #DDD;
+  background-color: #AAA;
+  background-image: url("./assets/bimg.png");
+  height: 100%;
 }
 </style>
