@@ -6,6 +6,8 @@ FACQ helps you to get the upper hand in the exchange by countering with a gracio
 
 Click or tap on the text to generate a new, fresh retort 
 
+
+
 ## Usage
 
 Open [FACQ](http://kdberends.github.io/facq). Tap or click on the answer to generate a new one. 
