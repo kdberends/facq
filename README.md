@@ -16,6 +16,14 @@ Alternatively, use spacebar & the arrow keys.
 
 The github corner banner is adapted from https://github.com/tholman/github-corners
 
+### Icons
+
+tap by Mello from the Noun Project
+
+Space Bar Pressed by Thomas Radwanski from the Noun Project
+
+click by Icon Lauk from the Noun Project
+
 ## Vue CLI
 
 ### Project setup
