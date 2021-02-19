@@ -7,12 +7,12 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   inkscape:export-ydpi="216.86342"
-   inkscape:export-xdpi="216.86342"
+   inkscape:export-ydpi="153.60001"
+   inkscape:export-xdpi="153.60001"
    inkscape:export-filename="C:\Users\berend_kn\git\facq\src\assets\logo.png"
-   width="77.891006mm"
-   height="28.975559mm"
-   viewBox="0 0 77.891004 28.97556"
+   width="465.4711"
+   height="62.863346"
+   viewBox="0 0 123.1559 16.632594"
    version="1.1"
    id="svg8"
    inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
@@ -20,6 +20,7 @@
   <defs
      id="defs2" />
   <sodipodi:namedview
+     units="px"
      id="base"
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -27,8 +28,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4142136"
-     inkscape:cx="48.358264"
-     inkscape:cy="31.350632"
+     inkscape:cx="180.71134"
+     inkscape:cy="161.89209"
      inkscape:document-units="mm"
      inkscape:current-layer="text843"
      inkscape:document-rotation="0"
@@ -229,17 +230,17 @@
          id="path2151" />
       <text
          id="text927"
-         y="145.0817"
-         x="91.522659"
-         style="font-size:3.29164px;line-height:1.25;font-family:ETBembo;-inkscape-font-specification:ETBembo;letter-spacing:0px;word-spacing:0px;fill:#55d400;stroke-width:0.00864566"
+         y="133.9352"
+         x="133.61761"
+         style="font-size:3.57988px;line-height:1.25;font-family:ETBembo;-inkscape-font-specification:ETBembo;letter-spacing:0px;word-spacing:0px;fill:#55d400;stroke-width:0.00940272"
          xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#55d400;stroke-width:0.00864566"
-           y="145.0817"
-           x="91.522659"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#55d400;stroke-width:0.00940272"
+           y="133.9352"
+           x="133.61761"
            id="tspan925"
            sodipodi:role="line"> to refresh your response</tspan></text>
       <g
-         transform="matrix(0.11348225,0,0,0.11348225,47.719732,136.76471)"
+         transform="matrix(0.11348225,0,0,0.11348225,130.7871,119.59932)"
          id="g960">
         <path
            style="fill:#55d400;fill-opacity:1"
@@ -247,7 +248,7 @@
            id="path943" />
       </g>
       <g
-         transform="matrix(0.26458333,0,0,0.26458333,64.632488,143.52281)"
+         transform="matrix(0.26458333,0,0,0.26458333,147.69985,126.35742)"
          id="g1023">
         <g
            style="fill:#55d400;fill-opacity:1"
@@ -280,7 +281,7 @@
         </g>
       </g>
       <g
-         transform="matrix(0.26458333,0,0,0.26458333,74.944108,140.24846)"
+         transform="matrix(0.26458333,0,0,0.26458333,158.01147,123.08307)"
          id="g1070">
         <g
            style="fill:#55d400;fill-opacity:1"
@@ -300,23 +301,23 @@
       <text
          xml:space="preserve"
          style="font-size:3.29164px;line-height:1.25;font-family:ETBembo;-inkscape-font-specification:ETBembo;letter-spacing:0px;word-spacing:0px;fill:#55d400;stroke-width:0.00864566"
-         x="58.361191"
-         y="145.0817"
+         x="141.42856"
+         y="127.91631"
          id="text1074"><tspan
            sodipodi:role="line"
            id="tspan1072"
-           x="58.361191"
-           y="145.0817"
+           x="141.42856"
+           y="127.91631"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#55d400;stroke-width:0.00864566">,</tspan></text>
       <text
          id="text1078"
-         y="145.01555"
-         x="69.407547"
+         y="127.85016"
+         x="152.47491"
          style="font-size:3.29164px;line-height:1.25;font-family:ETBembo;-inkscape-font-specification:ETBembo;letter-spacing:0px;word-spacing:0px;fill:#55d400;stroke-width:0.00864566"
          xml:space="preserve"><tspan
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#55d400;stroke-width:0.00864566"
-           y="145.01555"
-           x="69.407547"
+           y="127.85016"
+           x="152.47491"
            id="tspan1076"
            sodipodi:role="line">or</tspan></text>
     </g>
